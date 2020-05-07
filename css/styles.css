@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ******************************** */
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* ****************************************** */
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* ***************************** */
+/* Navigation bar */
+.navbar {
+  padding: 0;
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+  font-weight: 300;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* ******************************** */
+/* Title section */
+#title .container-fluid {
+  /* this container is more specific to title section so the changes of it will only be valid in title section.*/
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Using Css property media queary breakpoint to make the website more responsive.  */
+@media (max-width:1028px) {
+
+  /* max-width 1028px condition states that the below given actions will only be taken if the query/condition is true*/
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ************************************************************************* */
+/* Features section*/
+#features {
+  position: relative;
+  /*used to stack feature section over the title image rest check flow chart for more knowledge*/
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Feature icons */
+.feature-icon {
+  color: #ef8172;
+  padding: 1.2rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Features paragraphs */
+.features-para {
+  width: 65%;
+  margin: auto;
+}
+
+/* ***************************************************** */
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Testimonial image */
+.testimonial-img {
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* ************************************************ */
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ******************************** */
+/* Footer section */
+.footer-icon {
+  padding: 10px 10px 20px;
+}
+
+.footer-para {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bolder;
+}
+
+/* ***************************** */
